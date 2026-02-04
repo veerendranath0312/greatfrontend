@@ -34,12 +34,18 @@ body {
   padding: 0;
 }
 
-.card-container {
+.container {
+  padding-top: 200px;
+}
+
+.testimonial-card {
   background-color: var(--color-white);
+  box-shadow:
+    0 1px 3px 0 rgba(0, 0, 0, 0.1),
+    0 1px 2px -1px rgba(0, 0, 0, 0.1);
   width: 340px;
   padding: 24px;
   margin: 0 auto;
-  margin-top: 200px;
   border-radius: 8px;
 
   display: flex;
@@ -63,7 +69,8 @@ body {
   height: 48px;
 }
 
-.header h2 {
+.header .name {
+  font-weight: 600;
   font-size: 18px;
 
   overflow: hidden; /* Hides the overflowing text */
