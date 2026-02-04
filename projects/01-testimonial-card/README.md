@@ -1,10 +1,10 @@
 # Testimonial Card Component
 
-![Status](https://img.shields.io/badge/Status-Completed-success)
+![Status](https://img.shields.io/badge/Status-Completed-success) [![Live Demo](https://img.shields.io/badge/Live_Demo-View_Site-2ea44f)](https://testimonialcard-gfe.netlify.app/)
 
 > A pixel-perfect solution to the "Testimonial Card" challenge from **[Great Frontend Projects](https://www.greatfrontend.com/projects)**.
 
-▶️ **[View the live site here](#)**
+<!-- ▶️ **[View the live site here](https://testimonialcard-gfe.netlify.app/)** -->
 
 ## 📄 Description
 
