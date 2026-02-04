@@ -1,0 +1,99 @@
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+  --color-neutral-900: #171717;
+  --color-neutral-600: #525252;
+}
+
+body {
+  margin: 0;
+  font-family:
+    'Noto Sans',
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
+  min-height: 100vh;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  background: linear-gradient(148deg, #f9fafb 8.89%, #d2d6db 100.48%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.card-container {
+  background-color: var(--color-white);
+  width: 340px;
+  padding: 24px;
+  margin: 0 auto;
+  margin-top: 200px;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.header {
+  display: flex;
+  gap: 16px;
+}
+
+.header .avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .avatar img {
+  width: 48px;
+  height: 48px;
+}
+
+.header h2 {
+  font-size: 18px;
+
+  overflow: hidden; /* Hides the overflowing text */
+  display: -webkit-box; /* Required for -webkit-line-clamp to work */
+  -webkit-line-clamp: 1; /* Limits the text to 1 line */
+  line-clamp: 1;
+  -webkit-box-orient: vertical; /* Stacks the box contents vertically */
+}
+
+.header p {
+  font-size: 14px;
+  color: var(--color-neutral-600);
+}
+
+.message p {
+  color: var(--color-neutral-600);
+  line-height: 24px;
+}
+
+.credits {
+  color: #777;
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.credits a {
+  color: var(--color-black);
+  font-weight: bold;
+  text-decoration: none;
+}
