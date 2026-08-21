@@ -103,17 +103,11 @@ body {
   gap: 16px;
 }
 
-.card-social-links .card-social-icons ion-icon,
-.card-social-links .card-social-icons svg {
+.card-social-links .card-social-icons ion-icon {
   width: 20px;
   height: 20px;
   padding: 8px;
   color: #4338ca;
-  fill: currentColor;
-}
-
-.card-social-links .card-social-icons svg {
-  box-sizing: content-box;
 }
 
 .credits {
