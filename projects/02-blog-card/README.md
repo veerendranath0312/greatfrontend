@@ -4,8 +4,6 @@
 
 > A pixel-perfect solution to the "Blog Card" challenge from **[Great Frontend Projects](https://www.greatfrontend.com/projects)**.
 
-▶️ **[View the live site here](https://blogcard-gfe.netlify.app/)**
-
 ## 📄 Description
 
 A clean, reusable blog card component featuring a cover image, category badge, title, description, and a "Read more" link.
