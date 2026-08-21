@@ -1,8 +1,10 @@
 # Blog Card Component
 
-![Status](https://img.shields.io/badge/Status-Completed-success)
+![Status](https://img.shields.io/badge/Status-Completed-success) [![Live Demo](https://img.shields.io/badge/Live_Demo-View_Site-2ea44f)](https://blogcard-gfe.netlify.app/)
 
 > A pixel-perfect solution to the "Blog Card" challenge from **[Great Frontend Projects](https://www.greatfrontend.com/projects)**.
+
+▶️ **[View the live site here](https://blogcard-gfe.netlify.app/)**
 
 ## 📄 Description
 
